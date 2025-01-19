@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: my-app-foo
   namespace: argocd
-  finalizers:
-    - resource-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
